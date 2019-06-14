@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="protaskr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ProTaskr</title>
+        <script src="angular-1-7-8/angular.min.js"></script>
+        <script src="angular-1-7-8/angular-route.min.js"></script>
+        <script src="app/app.module.js"></script>
+        <script src="app/app.config.js"></script>
+        <script src="app/product-list/product-list.module.js"></script>
+        <script src="app/product-list/product-list.component.js"></script>
+        <script src="app/product-detail/product-detail.module.js"></script>
+        <script src="app/product-detail/product-detail.component.js"></script>
+        <link rel="stylesheet" href="app/styles/app.css">
+    </head>
+    <body>
+        <div ng-view></div>
+    </body>
+</html>

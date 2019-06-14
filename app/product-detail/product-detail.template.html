@@ -1,0 +1,11 @@
+<a class="pull-right" href="#!/products">Back</a>
+<h1>Product Detail</h1>
+<ul class="productList">
+    <li ng-repeat="product in $ctrl.products">
+        <p>
+            <img class="pull-left" ng-src="{{product.images[0]}}" width="120px">
+            <span>{{product.sku}}</span>
+            <br><span>{{product.product_name}}</span>
+        </p>
+    </li>
+</ul>
