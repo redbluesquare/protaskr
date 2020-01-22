@@ -1,5 +1,4 @@
 location,x_coord,y_coord,z_coord,orientation
-,0,0,0,4
 BLK0010010101,120000,0,0,2
 BLK0020020202,120000,0,1500,4
 BLK0640010102,120000,800,0,4
